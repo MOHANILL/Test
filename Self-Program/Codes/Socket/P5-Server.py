@@ -1,0 +1,12 @@
+import socket
+s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+s.bind(("192.168.204.231",2323))
+s.listen(5)
+print("Connected On Port 2323\n")
+session,addr=s.accept()
+print(session)
+print("Connected to " + str(addr)+"\n")
+session.sendall("Hello I am Server".encode())
+data=session.recv(1024)
+print(data.decode())
+session.close()

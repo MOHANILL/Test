@@ -1,0 +1,5 @@
+Clear-Text : Hello world
+
+key :b'_KvNC9lxQQujsuIlue8mOjVbNj1pIgVgTcU0baCFjRs='
+
+Cipher :b'gAAAAABjHxjr8KSWLl_kYTXGXrPkjqSSsyk6L5DFkRQ14qJnxWFpMD0Cfl8R2g29IuMsr4Q4VJbMPfGF3HealAnagzlTiJWYyQ=='

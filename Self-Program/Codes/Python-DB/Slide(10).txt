@@ -1,0 +1,10 @@
+import sqlite3
+
+conn = sqlite3.connect('my_database.db')
+
+c =conn.cursor()
+
+c.execute('ALTER TABLE customer ADD email')
+
+conn.commit()
+conn.close()

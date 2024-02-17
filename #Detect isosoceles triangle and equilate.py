@@ -16,4 +16,4 @@ if(ang1>=0 and ang2>=0 and ang3>=0):                           #check that lengt
     else:
         print("Error:Your numbers can't make triangle!!!!")
 else:
-    print("Error:Angles' length can't be minus, try again!!!!")
+    print("Error:Angles'  length can't be minus, try again!!!!")
